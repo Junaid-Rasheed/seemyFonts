@@ -23,13 +23,14 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {image && (
             <Image
               src={image}
+              alt="imagewe"
               width={350}
               height={220}
               onClick={() => setFontName("CANDLE SCRIPT")}
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -45,6 +46,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -52,7 +54,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -69,13 +71,14 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {image && (
             <Image
               src={image}
+              alt="imagewe"
               width={350}
               height={220}
               onClick={() => setFontName("EMBASSY")}
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -91,6 +94,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -98,7 +102,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -114,6 +118,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -121,7 +126,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -137,6 +142,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -144,7 +150,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -160,6 +166,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -167,7 +174,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -184,13 +191,14 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {image && (
             <Image
               src={image}
+              alt="imagewe"
               width={350}
               height={220}
               onClick={() => setFontName("WATERMELON")}
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",
@@ -206,6 +214,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
           {" "}
           {image && (
             <Image
+              alt="imagewe"
               src={image}
               width={350}
               height={220}
@@ -213,7 +222,7 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
             />
           )}
           <div
-            class="centered text-5xl"
+            className="centered text-5xl"
             style={{
               color: colorCode,
               fontSize: size + "px",

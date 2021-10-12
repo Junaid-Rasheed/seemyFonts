@@ -25,6 +25,7 @@ function Crousal({ firstName, color, colorCode, size }) {
     <div className="px-12">
       <Carousel className="cursor-pointer">
         <Image
+          alt="image"
           src={Box}
           onClick={() => handleClick(Box, "'64' Painted Blush")}
           width={800}
@@ -32,12 +33,14 @@ function Crousal({ firstName, color, colorCode, size }) {
         />
         <Image
           src={Table}
+          alt="image"
           onClick={() => handleClick(Table, "64' DINNING TABLE")}
           width={800}
           height={300}
         />
         <Image
           src={Crib}
+          alt="image"
           onClick={() => handleClick(Crib, " 53' CRIB ")}
           width={800}
           height={300}
@@ -46,10 +49,12 @@ function Crousal({ firstName, color, colorCode, size }) {
           src={Bench}
           onClick={() => handleClick(Bench, " 68' ENTERWAY BENCH ")}
           width={800}
+          alt="image"
           height={300}
         />
         <Image
           src={Sofa}
+          alt="image"
           onClick={() => handleClick(Sofa, " 8' SOFA")}
           width={800}
           height={300}

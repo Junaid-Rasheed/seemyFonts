@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useRouter } from "next/router";
 import CenterColor from "../../components/CenterColor";
 import Image from "next/image";
 import AfterColor from "../../components/AfterColor";
@@ -7,9 +6,6 @@ import Crousal from "../../components/Crousal";
 import LastColor from "../../components/LastColor";
 const WoodPattern = require("../../assest/wood-pattern.jpg");
 export default function id() {
-  const router = useRouter();
-  const pageNo = router.query.id;
-
   const [firstName, setFirstName] = useState("Sample");
   const [color, setColor] = useState("Navy Blue");
   const [colorCode, setColorCode] = useState("#000080");
@@ -30,8 +26,7 @@ export default function id() {
         </text>
         <br />
         <input
-          class="shadow appearance-none border rounded w-96  py-2 mt-4 mb-8 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          id="sample"
+          className="shadow appearance-none border rounded w-96  py-2 mt-4 mb-8 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="Sample"
           onChange={(e) => setFirstName(e.target.value)}
@@ -54,6 +49,7 @@ export default function id() {
             <br />
             <Image
               className="cursor-pointer"
+              alt="image"
               src={WoodPattern}
               onClick={() =>
                 handleColors("Unpainted - Baltic Birch Wood Grain", "No-Extra")
