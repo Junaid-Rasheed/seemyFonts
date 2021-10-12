@@ -5,7 +5,7 @@ const Logo = require("../assest/logo@2x.png");
 function MainName() {
   return (
     <div className="text-center pt-12 pb-7">
-      <Link href="/">
+      <Link href="/" passHref>
         <Image
           className="cursor-pointer"
           src={Logo}

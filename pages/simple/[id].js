@@ -49,7 +49,6 @@ export default function Id() {
             <br />
             <Image
               className="cursor-pointer"
-              alt="image"
               src={WoodPattern}
               onClick={() =>
                 handleColors("Unpainted - Baltic Birch Wood Grain", "No-Extra")
