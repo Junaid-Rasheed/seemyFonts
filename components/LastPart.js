@@ -5,7 +5,7 @@ import Popup from "reactjs-popup";
 import { Dialog } from "@reach/dialog";
 import "@reach/dialog/styles.css";
 
-const truck = require("../assest/truck.png");
+const truck = require("../public/assest/truck.png");
 
 function LastPart({ color, font }) {
   const [showDialog, setShowDialog] = React.useState(false);
