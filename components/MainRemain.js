@@ -128,8 +128,9 @@ function MainRemain() {
       </div>
       <div className="pb-16 text-center pt-16 p-10">
         <p>
-          The term 'Etsy' is a trademark of Etsy, Inc. This application uses the
-          Etsy API but is not endorsed or certified by Etsy, Inc.
+          The term &apos;Etsy&apos; is a trademark of Etsy, Inc. This
+          application uses the Etsy API but is not endorsed or certified by
+          Etsy, Inc.
         </p>
       </div>
     </div>
