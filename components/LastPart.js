@@ -15,8 +15,8 @@ function LastPart({ color, font }) {
   return (
     <div>
       <div className="last-text grid sm:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-x-5 gap-y-2 px-12  mx-20">
-        <span className="flex-row mt-5 ml-48">
-          <Image src={truck} width={90} height={90} />
+        <span className="flex-row mt-5 ml-48 ">
+          <Image src={truck} width={90} height={90} alt="newimage" />
         </span>
         <span className="text-left  ">
           <p className="font-bold tracking-widest text-2xl pt-4  ">

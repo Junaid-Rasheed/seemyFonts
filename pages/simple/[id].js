@@ -5,7 +5,7 @@ import AfterColor from "../../components/AfterColor";
 import Crousal from "../../components/Crousal";
 import LastColor from "../../components/LastColor";
 const WoodPattern = require("../../assest/wood-pattern.jpg");
-export default function id() {
+export default function Id() {
   const [firstName, setFirstName] = useState("Sample");
   const [color, setColor] = useState("Navy Blue");
   const [colorCode, setColorCode] = useState("#000080");

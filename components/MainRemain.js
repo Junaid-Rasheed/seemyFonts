@@ -89,7 +89,7 @@ function MainRemain() {
           <p className=" text-center tracking-widest">
             SCRIPT FONT <br />
             WOODEN NAME SIGNS <br />
-            FROM $ 29.74
+            FROM <span className="text-xl">$ 29.74</span>
           </p>
         </a>
 
@@ -98,7 +98,7 @@ function MainRemain() {
           <p className=" text-center tracking-widest">
             BLOCK FONT <br />
             WOODEN NAME SIGNS <br />
-            FROM $ 29.74
+            FROM <span className="text-xl">$ 29.74</span>
           </p>
         </a>
         <a href={`/simple/${post[2]}`} className="box-border">
@@ -106,7 +106,7 @@ function MainRemain() {
           <p className=" text-center tracking-widest">
             WOODEN <br />
             MONOGRAMS <br />
-            FROM $ 29.74
+            FROM <span className="text-xl">$ 29.74</span>
           </p>
         </a>
         <a href={`/wood/${post[3]}`} className="box-border">
@@ -114,7 +114,7 @@ function MainRemain() {
           <p className=" text-center tracking-widest">
             CLASSIC <br />
             ROUND NAME SIGNS <br />
-            FROM $ 67.30
+            FROM <span className="text-xl">$ 67.30</span>
           </p>
         </a>
         <a href={`/wood/${post[4]}`} className="box-border">
@@ -122,7 +122,7 @@ function MainRemain() {
           <p className=" text-center tracking-widest">
             SHIPLAP <br />
             ROUND NAME SIGNS <br />
-            FROM $ 67.30
+            FROM <span className="text-xl">$ 67.30</span>
           </p>
         </a>
       </div>
