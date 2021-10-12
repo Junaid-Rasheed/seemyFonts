@@ -1,16 +1,155 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "betterPhoenix";
+  src: url("../public/fonts/better_phoenix_sample.ttf");
+}
+@font-face {
+  font-family: "candleScript";
+  src: url("../public/fonts/Candlescript\ Pro.ttf");
+}
+@font-face {
+  font-family: "embassy";
+  src: url("../public/fonts/EmbassyBT.ttf");
+}
+@font-face {
+  font-family: "Hello";
+  src: url("../public/fonts/Hello.ttf");
+}
+@font-face {
+  font-family: "Hugs";
+  src: url("../public/fonts/Hugs\ &\ Kisses\ xoxo\ Demo.ttf");
+}
+@font-face {
+  font-family: "sweetHipster";
+  src: url("../public/fonts/Sweet\ Hipster.ttf");
+}
+@font-face {
+  font-family: "taleOfHawk";
+  src: url("../public/fonts/Tale\ of\ Hawks.ttf");
+}
+@font-face {
+  font-family: "Demo";
+  src: url("../public/fonts/Watermelon\ Script\ Demo.ttf");
+}
+@font-face {
+  font-family: "candleScript";
+  src: url("../public/fonts/Candlescript\ Pro.ttf");
+}
+
 body {
+  color: #807e89;
+}
+.box-border:hover {
+  border: 1px solid #beaabe;
+}
+
+.unpaint {
+  background-color: #e3c6b1;
+  width: 20px;
+  height: 20px;
+}
+
+.slider {
+  appearance: none;
+  width: 30%;
+  height: 7px;
+  background: #7f7f8a;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
   padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* .head-text {
+  position: relative;
+}
+.text-on-image {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 15%;
+} */
+
+.centerColor {
+  width: "23px";
+  height: "23px";
 }
 
-* {
-  box-sizing: border-box;
+.example2 {
+  /* border: 1px solid; */
+  padding: 3px;
+  box-shadow: 3px 2px #888888;
+}
+
+.demo-text {
+  margin-top: 20px;
+
+  border: 1px solid #afb4b9;
+
+  padding: 3px;
+}
+.last-text {
+  margin-top: 8px;
+
+  border: 1px solid #afb4b9;
+}
+.rate-text {
+  border: 1px solid #afb4b9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+}
+.disclamer-text {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.MIcontainer {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.badge {
+  display: inline-block;
+  color: white;
+  background-color: #5bccba;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 1cm;
+  border-color: #4b8f84;
 }
