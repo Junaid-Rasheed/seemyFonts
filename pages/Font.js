@@ -4,7 +4,7 @@ import Image from "next/image";
 import AfterColor from "../components/Block/AfterColor";
 import Crousal from "../components/Block/Crousal";
 import LastColor from "../components/Block/LastColor";
-const WoodPattern = require("../public/Assets/woodpattern.jpg");
+const WoodPattern = require("../Assets/woodpattern.jpg");
 
 export default function Font() {
   const [firstName, setFirstName] = useState("Sample");

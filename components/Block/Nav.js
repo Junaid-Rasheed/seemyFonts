@@ -4,7 +4,7 @@ import MainName from "./MainName";
 // import GreeneryBanner from '../assest'
 import { HeartIcon } from "@heroicons/react/solid";
 
-const GreenBanner = require("../../public/Assets/greenbanner.png");
+const GreenBanner = require("../../Assets/greenbanner.png");
 function Nav() {
   return (
     <div>

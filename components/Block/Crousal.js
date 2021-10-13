@@ -5,13 +5,13 @@ import Carousel from "react-material-ui-carousel";
 // import { Paper, Button } from "@material-ui/core";
 import MoreImages from "./MoreImages";
 
-const Box = require("../../public/Assets/crousal/boxwoodweddingwall.jpg");
+const Box = require("../../Assets/crousal/boxwoodweddingwall.jpg");
 
-const Crib = require("../../public/Assets/crousal/backgroundcrib.jpg");
-const Table = require("../../public/Assets/crousal/diningtable.jpg");
-const Bench = require("../../public/Assets/crousal/benchentry.jpg");
-const Bed = require("../../public/Assets/crousal/bedfullsize.jpg");
-const Sofa = require("../../public/Assets/crousal/sofa.jpg");
+const Crib = require("../../Assets/crousal/backgroundcrib.jpg");
+const Table = require("../../Assets/crousal/diningtable.jpg");
+const Bench = require("../../Assets/crousal/benchentry.jpg");
+const Bed = require("../../Assets/crousal/bedfullsize.jpg");
+const Sofa = require("../../Assets/crousal/sofa.jpg");
 
 function Crousal({ firstName, color, colorCode, size }) {
   const [name, setName] = useState(" ");
