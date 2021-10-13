@@ -4,12 +4,12 @@ import Link from "next/link";
 // import {nextId} from "react-id-generator";
 import { setPrefix } from "react-id-generator";
 
-const banner = require("../public/assest/banner.png");
-const block = require("../public/assest/coverblock.jpg");
-const mono = require("../public/assest/covermonogram.jpg");
-const round = require("../public/assest/coverround.jpg");
-const script = require("../public/assest/coverscript.jpg");
-const shiplap = require("../public/assest/covershiplap.jpg");
+const banner = require("../../public/assest/banner.png");
+const block = require("../../public/assest/coverblock.jpg");
+const mono = require("../../public/assest/covermonogram.jpg");
+const round = require("../../public/assest/coverround.jpg");
+const script = require("../../public/assest/coverscript.jpg");
+const shiplap = require("../../public/assest/covershiplap.jpg");
 
 setPrefix("test-");
 
@@ -84,7 +84,7 @@ function MainRemain() {
       </div>
 
       <div className="grid sm:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-3 gap-y-2 px-20  ">
-        <a href={`/simple/${post[0]}`} className="box-border">
+        <a href={"/Font"} className="box-border">
           <Image src={script} alt="universe" width={450} height={350} />
           <p className=" text-center tracking-widest">
             SCRIPT FONT <br />
@@ -93,7 +93,7 @@ function MainRemain() {
           </p>
         </a>
 
-        <a href={`/simple/${post[1]}`} className="box-border">
+        <a href={"/Font"} className="box-border">
           <Image src={block} alt="universe" width={450} height={350} />
           <p className=" text-center tracking-widest">
             BLOCK FONT <br />

@@ -3,7 +3,8 @@ import Image from "next/image";
 import MainName from "./MainName";
 // import GreeneryBanner from '../assest'
 import { HeartIcon } from "@heroicons/react/solid";
-const GreenBanner = require("../public/assest/greenbanner.png");
+
+const GreenBanner = require("../../public/assest/greenbanner.png");
 function Nav() {
   return (
     <div>

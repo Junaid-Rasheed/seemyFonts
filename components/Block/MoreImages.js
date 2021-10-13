@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import DemoText from "./DemoText";
 import LastPart from "./LastPart";
+
 function MoreImages({ image, firstName, setName, color, colorCode, size }) {
   const [font, setFontName] = useState("betterPhoenix");
 
@@ -242,7 +243,9 @@ function MoreImages({ image, firstName, setName, color, colorCode, size }) {
         font={font}
       />
       <br />
+
       <LastPart color={color} font={font} />
+      {/* <LastPartBlock color={color} font={font} />  */}
     </div>
   );
 }

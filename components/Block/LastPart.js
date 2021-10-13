@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import "reactjs-popup/dist/index.css";
-import Popup from "reactjs-popup";
+// import Popup from "reactjs-popup";
 import { Dialog } from "@reach/dialog";
 import "@reach/dialog/styles.css";
 
-const truck = require("../public/assest/truck.png");
+const truck = require("../../public/assest/truck.png");
 
 function LastPart({ color, font }) {
   const [showDialog, setShowDialog] = React.useState(false);
@@ -54,45 +54,9 @@ function LastPart({ color, font }) {
       <div className="rate-text mx-20 flex justify-between px-6">
         <h1 className="font-bold">12 Inches</h1>
 
-        {/* <Popup
-          trigger={<button className=" btn btn-info">Select ($54.94)</button>}
-          position="left center"
-        >
-          <div>
-            <h2>ALMOST THERE..</h2>
-            <p>
-              Here are the details you'll need to purchase your name sign on
-              Etsy:
-            </p>
-            <br />
-            <h1>
-              Step One:
-              <a
-                style={{ color: "blue" }}
-                href="https://www.etsy.com/listing/755026573/nursery-wall-letters-farmhouse-nursery"
-              >
-                {" "}
-                Go to Etsy Listing
-              </a>
-            </h1>
-            <br />
-            <p>
-              Select width:<h1 className="text-xl"> 12 Inches</h1>
-            </p>
-            <br />
-            <h3>
-              Select Font : <h1 className="text-xl"> {font}</h1>
-            </h3>
-            <br />
-
-            <p>
-              Select Color:<h1 className="text-xl"> {color}</h1>
-            </p>
-          </div>
-        </Popup> */}
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($34.99)
+            Select ($54.94)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -138,7 +102,7 @@ function LastPart({ color, font }) {
         <h1 className="font-bold">18 Inches</h1>
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($59.99)
+            Select ($59.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -184,7 +148,7 @@ function LastPart({ color, font }) {
 
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($89.99)
+            Select ($79.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -229,7 +193,7 @@ function LastPart({ color, font }) {
         <h1 className="font-bold">30 Inches</h1>
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($99.99)
+            Select ($109.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -275,7 +239,7 @@ function LastPart({ color, font }) {
 
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($109.99)
+            Select ($119.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -321,7 +285,7 @@ function LastPart({ color, font }) {
 
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($159.99)
+            Select ($128.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -367,7 +331,7 @@ function LastPart({ color, font }) {
 
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($229.99)
+            Select ($248.97)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>
@@ -413,7 +377,7 @@ function LastPart({ color, font }) {
         <h1 className="font-bold">54 Inches</h1>
         <div>
           <button onClick={open} className=" btn btn-info">
-            Select ($284.99)
+            Select ($304.99)
           </button>
           <Dialog isOpen={showDialog} onDismiss={close}>
             <button className="close-button" onClick={close}>

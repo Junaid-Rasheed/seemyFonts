@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import CenterColor from "../../components/CenterColor";
+import CenterColor from "../components/Block/CenterColor";
 import Image from "next/image";
-import AfterColor from "../../components/AfterColor";
-import Crousal from "../../components/Crousal";
-import LastColor from "../../components/LastColor";
-const WoodPattern = require("../../public/assest/woodpattern.jpg");
-export default function Id() {
+import AfterColor from "../components/Block/AfterColor";
+import Crousal from "../components/Block/Crousal";
+import LastColor from "../components/Block/LastColor";
+const WoodPattern = require("../public/assest/woodpattern.jpg");
+
+export default function Font() {
   const [firstName, setFirstName] = useState("Sample");
   const [color, setColor] = useState("Navy Blue");
   const [colorCode, setColorCode] = useState("#000080");
