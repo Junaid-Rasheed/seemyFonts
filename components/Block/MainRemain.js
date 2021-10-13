@@ -4,12 +4,12 @@ import Link from "next/link";
 // import {nextId} from "react-id-generator";
 import { setPrefix } from "react-id-generator";
 
-const banner = require("../../public/assest/banner.png");
-const block = require("../../public/assest/coverblock.jpg");
-const mono = require("../../public/assest/covermonogram.jpg");
-const round = require("../../public/assest/coverround.jpg");
-const script = require("../../public/assest/coverscript.jpg");
-const shiplap = require("../../public/assest/covershiplap.jpg");
+const banner = require("../../public/Assets/banner.png");
+const block = require("../../public/Assets/coverblock.jpg");
+const mono = require("../../public/Assets/covermonogram.jpg");
+const round = require("../../public/Assets/coverround.jpg");
+const script = require("../../public/Assets/coverscript.jpg");
+const shiplap = require("../../public/Assets/covershiplap.jpg");
 
 setPrefix("test-");
 
