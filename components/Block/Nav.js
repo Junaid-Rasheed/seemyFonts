@@ -4,7 +4,7 @@ import MainName from "./MainName";
 // import GreeneryBanner from '../assest'
 import { HeartIcon } from "@heroicons/react/solid";
 
-const GreenBanner = require("../../Assets/greenbanner.png");
+// const GreenBanner = require("/greenbanner.png");
 function Nav() {
   return (
     <div>
@@ -21,7 +21,7 @@ function Nav() {
           </li>
         </ul>
         <Image
-          src={GreenBanner}
+          src={"/greenbanner.png"}
           layout="responsive"
           alt="universe"
           width={1500}

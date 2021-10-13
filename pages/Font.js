@@ -4,7 +4,7 @@ import Image from "next/image";
 import AfterColor from "../components/Block/AfterColor";
 import Crousal from "../components/Block/Crousal";
 import LastColor from "../components/Block/LastColor";
-const WoodPattern = require("../Assets/woodpattern.jpg");
+// const WoodPattern = require("/woodpattern.jpg");
 
 export default function Font() {
   const [firstName, setFirstName] = useState("Sample");
@@ -50,7 +50,7 @@ export default function Font() {
             <br />
             <Image
               className="cursor-pointer"
-              src={WoodPattern}
+              src={"/woodpattern.jpg"}
               onClick={() =>
                 handleColors("Unpainted - Baltic Birch Wood Grain", "No-Extra")
               }

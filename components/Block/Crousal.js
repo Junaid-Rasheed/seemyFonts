@@ -5,17 +5,17 @@ import Carousel from "react-material-ui-carousel";
 // import { Paper, Button } from "@material-ui/core";
 import MoreImages from "./MoreImages";
 
-const Box = require("../../Assets/crousal/boxwoodweddingwall.jpg");
+// const Box = require("/boxwoodweddingwall.jpg");
 
-const Crib = require("../../Assets/crousal/backgroundcrib.jpg");
-const Table = require("../../Assets/crousal/diningtable.jpg");
-const Bench = require("../../Assets/crousal/benchentry.jpg");
-const Bed = require("../../Assets/crousal/bedfullsize.jpg");
-const Sofa = require("../../Assets/crousal/sofa.jpg");
+// const Crib = require("/backgroundcrib.jpg");
+// const Table = require("/diningtable.jpg");
+// const Bench = require("/benchentry.jpg");
+// const Bed = require("/bedfullsize.jpg");
+// const Sofa = require("/sofa.jpg");
 
 function Crousal({ firstName, color, colorCode, size }) {
   const [name, setName] = useState(" ");
-  const [image, setImage] = useState(Table);
+  const [image, setImage] = useState("/diningtable.jpg");
 
   const handleClick = (img, title) => {
     setName(title);
@@ -27,34 +27,34 @@ function Crousal({ firstName, color, colorCode, size }) {
       <Carousel className="cursor-pointer">
         <Image
           alt="image"
-          src={Box}
+          src={"/boxwoodweddingwall.jpg"}
           onClick={() => handleClick(Box, "'64' Painted Blush")}
           width={800}
           height={300}
         />
         <Image
-          src={Table}
+          src={"/diningtable.jpg"}
           alt="image"
           onClick={() => handleClick(Table, "64' DINNING TABLE")}
           width={800}
           height={300}
         />
         <Image
-          src={Crib}
+          src={"/backgroundcrib.jpg"}
           alt="image"
           onClick={() => handleClick(Crib, " 53' CRIB ")}
           width={800}
           height={300}
         />
         <Image
-          src={Bench}
+          src={"/benchentry.jpg"}
           onClick={() => handleClick(Bench, " 68' ENTERWAY BENCH ")}
           width={800}
           alt="image"
           height={300}
         />
         <Image
-          src={Sofa}
+          src={"/sofa.jpg"}
           alt="image"
           onClick={() => handleClick(Sofa, " 8' SOFA")}
           width={800}

@@ -5,7 +5,7 @@ import "reactjs-popup/dist/index.css";
 import { Dialog } from "@reach/dialog";
 import "@reach/dialog/styles.css";
 
-const truck = require("../../Assets/truck.png");
+// const truck = require("/truck.png");
 
 function LastPart({ color, font }) {
   const [showDialog, setShowDialog] = React.useState(false);
@@ -16,7 +16,7 @@ function LastPart({ color, font }) {
     <div>
       <div className="last-text grid sm:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-x-5 gap-y-2 px-12  mx-20">
         <span className="flex-row mt-5 ml-48 ">
-          <Image src={truck} width={90} height={90} alt="newimage" />
+          <Image src={"/truck.png"} width={90} height={90} alt="newimage" />
         </span>
         <span className="text-left  ">
           <p className="font-bold tracking-widest text-2xl pt-4  ">
