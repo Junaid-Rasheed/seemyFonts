@@ -4,4 +4,5 @@ module.exports = {
     ignoreBuildErrors: true,
   },
   target: "serverless",
+  distDir: "out",
 };
